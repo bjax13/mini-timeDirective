@@ -8,7 +8,7 @@ angular.module('timeApp')
           },
           link: function(scope, element, attrs){
             var currentTime = new Date();
-            scope.time = currentTime.toString();
+            scope.time = currentTime
           }
         }
     });
